@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043B56F681190F8EB9D20373 /* Pods_Zeeflix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB938C21D5FB67ADC27C945 /* Pods_Zeeflix.framework */; };
+		40EFFEA854F3C9DD8DDD1655 /* Pods_ZeeflixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621D144B1D1E80D126461A5D /* Pods_ZeeflixTests.framework */; };
 		49B3D299270E35F7007F0F95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D298270E35F7007F0F95 /* AppDelegate.swift */; };
 		49B3D29B270E35F7007F0F95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D29A270E35F7007F0F95 /* SceneDelegate.swift */; };
 		49B3D29D270E35F7007F0F95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D29C270E35F7007F0F95 /* ViewController.swift */; };
@@ -15,6 +17,36 @@
 		49B3D2A5270E3600007F0F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B3D2A3270E3600007F0F95 /* LaunchScreen.storyboard */; };
 		49B3D2B0270E3600007F0F95 /* ZeeflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D2AF270E3600007F0F95 /* ZeeflixTests.swift */; };
 		49B3D2BB270E3600007F0F95 /* ZeeflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D2BA270E3600007F0F95 /* ZeeflixUITests.swift */; };
+		49B3D2E4270E4444007F0F95 /* ConstantUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D2E3270E4444007F0F95 /* ConstantUrl.swift */; };
+		49B3D2EF270E4568007F0F95 /* AlamofireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D2EE270E4568007F0F95 /* AlamofireService.swift */; };
+		49B3D2FF270E469F007F0F95 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D2FE270E469F007F0F95 /* BaseResponse.swift */; };
+		49B3D307270E4937007F0F95 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D306270E4937007F0F95 /* APIError.swift */; };
+		49B3D30C270E4AC2007F0F95 /* UpcomingMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D30B270E4AC2007F0F95 /* UpcomingMovieModel.swift */; };
+		49B3D31A270E5026007F0F95 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D319270E5026007F0F95 /* MovieCell.swift */; };
+		49B3D320270E503E007F0F95 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B3D31F270E503E007F0F95 /* MovieCell.xib */; };
+		49B3D325270E563E007F0F95 /* UpcomingMovieDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D324270E563E007F0F95 /* UpcomingMovieDAO.swift */; };
+		49B3D32A270E56E5007F0F95 /* APIservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D329270E56E5007F0F95 /* APIservice.swift */; };
+		49B3D332270E58E9007F0F95 /* UpcomingMovieVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D331270E58E9007F0F95 /* UpcomingMovieVM.swift */; };
+		49B3D337270E5979007F0F95 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D336270E5979007F0F95 /* BaseVM.swift */; };
+		49B3D33C270E635A007F0F95 /* UIimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D33B270E635A007F0F95 /* UIimage.swift */; };
+		49B3D34E270E74D4007F0F95 /* PopularMovieDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D34D270E74D4007F0F95 /* PopularMovieDAO.swift */; };
+		49B3D353270E7558007F0F95 /* PopularMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D352270E7558007F0F95 /* PopularMovieModel.swift */; };
+		49B3D358270E7617007F0F95 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D357270E7617007F0F95 /* BaseViewController.swift */; };
+		49B3D368270E795A007F0F95 /* Dialogs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B3D367270E795A007F0F95 /* Dialogs.storyboard */; };
+		49B3D36E270E7A60007F0F95 /* Dialogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D36D270E7A60007F0F95 /* Dialogs.swift */; };
+		49B3D373270E7B29007F0F95 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D372270E7B29007F0F95 /* AppStoryboard.swift */; };
+		49B3D378270E7BB7007F0F95 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D377270E7BB7007F0F95 /* UIViewController.swift */; };
+		49B3D389270E7D6D007F0F95 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D388270E7D6D007F0F95 /* String.swift */; };
+		49B3D38E270E7D8F007F0F95 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D38D270E7D8F007F0F95 /* UIView.swift */; };
+		49B3D396270E804B007F0F95 /* PopularMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D395270E804B007F0F95 /* PopularMovieCell.swift */; };
+		49B3D39E270E805F007F0F95 /* PopularMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B3D39D270E805F007F0F95 /* PopularMovieCell.xib */; };
+		49B3D3A3270E891D007F0F95 /* PopularMovieVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D3A2270E891D007F0F95 /* PopularMovieVM.swift */; };
+		49B3D3B0270E91C1007F0F95 /* MovieDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B3D3AF270E91C1007F0F95 /* MovieDetail.storyboard */; };
+		49B3D3B9270E935C007F0F95 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D3B8270E935C007F0F95 /* MovieDetail.swift */; };
+		49B3D3DB270EA7FB007F0F95 /* FavouriteMovies.db in Resources */ = {isa = PBXBuildFile; fileRef = 49B3D3D9270EA7FB007F0F95 /* FavouriteMovies.db */; };
+		49B3D3E5270EA92E007F0F95 /* DBUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D3E4270EA92E007F0F95 /* DBUtility.swift */; };
+		49B3D3FA270EAA04007F0F95 /* FavouriteDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B3D3F9270EAA04007F0F95 /* FavouriteDAO.swift */; };
+		C5277207AA538E82B65F7187 /* Pods_Zeeflix_ZeeflixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462F3BCDF4A2BB179647C783 /* Pods_Zeeflix_ZeeflixUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		462F3BCDF4A2BB179647C783 /* Pods_Zeeflix_ZeeflixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeeflix_ZeeflixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B3D295270E35F7007F0F95 /* Zeeflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeeflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B3D298270E35F7007F0F95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49B3D29A270E35F7007F0F95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +82,43 @@
 		49B3D2B6270E3600007F0F95 /* ZeeflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeeflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B3D2BA270E3600007F0F95 /* ZeeflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeeflixUITests.swift; sourceTree = "<group>"; };
 		49B3D2BC270E3600007F0F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B3D2E3270E4444007F0F95 /* ConstantUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantUrl.swift; sourceTree = "<group>"; };
+		49B3D2EE270E4568007F0F95 /* AlamofireService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireService.swift; sourceTree = "<group>"; };
+		49B3D2FE270E469F007F0F95 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		49B3D306270E4937007F0F95 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		49B3D30B270E4AC2007F0F95 /* UpcomingMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMovieModel.swift; sourceTree = "<group>"; };
+		49B3D319270E5026007F0F95 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		49B3D31F270E503E007F0F95 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		49B3D324270E563E007F0F95 /* UpcomingMovieDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMovieDAO.swift; sourceTree = "<group>"; };
+		49B3D329270E56E5007F0F95 /* APIservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIservice.swift; sourceTree = "<group>"; };
+		49B3D331270E58E9007F0F95 /* UpcomingMovieVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMovieVM.swift; sourceTree = "<group>"; };
+		49B3D336270E5979007F0F95 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		49B3D33B270E635A007F0F95 /* UIimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIimage.swift; sourceTree = "<group>"; };
+		49B3D34D270E74D4007F0F95 /* PopularMovieDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieDAO.swift; sourceTree = "<group>"; };
+		49B3D352270E7558007F0F95 /* PopularMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieModel.swift; sourceTree = "<group>"; };
+		49B3D357270E7617007F0F95 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		49B3D367270E795A007F0F95 /* Dialogs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dialogs.storyboard; sourceTree = "<group>"; };
+		49B3D36D270E7A60007F0F95 /* Dialogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialogs.swift; sourceTree = "<group>"; };
+		49B3D372270E7B29007F0F95 /* AppStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
+		49B3D377270E7BB7007F0F95 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		49B3D388270E7D6D007F0F95 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		49B3D38D270E7D8F007F0F95 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		49B3D395270E804B007F0F95 /* PopularMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieCell.swift; sourceTree = "<group>"; };
+		49B3D39D270E805F007F0F95 /* PopularMovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularMovieCell.xib; sourceTree = "<group>"; };
+		49B3D3A2270E891D007F0F95 /* PopularMovieVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieVM.swift; sourceTree = "<group>"; };
+		49B3D3AF270E91C1007F0F95 /* MovieDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieDetail.storyboard; sourceTree = "<group>"; };
+		49B3D3B8270E935C007F0F95 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		49B3D3D9270EA7FB007F0F95 /* FavouriteMovies.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = FavouriteMovies.db; sourceTree = "<group>"; };
+		49B3D3E4270EA92E007F0F95 /* DBUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBUtility.swift; sourceTree = "<group>"; };
+		49B3D3F9270EAA04007F0F95 /* FavouriteDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteDAO.swift; sourceTree = "<group>"; };
+		5CB938C21D5FB67ADC27C945 /* Pods_Zeeflix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeeflix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		603C9B12C7636E3C810E917C /* Pods-Zeeflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeeflix.debug.xcconfig"; path = "Target Support Files/Pods-Zeeflix/Pods-Zeeflix.debug.xcconfig"; sourceTree = "<group>"; };
+		621D144B1D1E80D126461A5D /* Pods_ZeeflixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeeflixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E5CFB09487FC7003326DD9 /* Pods-ZeeflixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeeflixTests.release.xcconfig"; path = "Target Support Files/Pods-ZeeflixTests/Pods-ZeeflixTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E1B7E2EDC5B8F6ED2EC5ADE /* Pods-Zeeflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeeflix.release.xcconfig"; path = "Target Support Files/Pods-Zeeflix/Pods-Zeeflix.release.xcconfig"; sourceTree = "<group>"; };
+		BB9BC0D0DC49FC98E45BB1BC /* Pods-Zeeflix-ZeeflixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeeflix-ZeeflixUITests.release.xcconfig"; path = "Target Support Files/Pods-Zeeflix-ZeeflixUITests/Pods-Zeeflix-ZeeflixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA9DA04455DA1FA59D080F90 /* Pods-Zeeflix-ZeeflixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeeflix-ZeeflixUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zeeflix-ZeeflixUITests/Pods-Zeeflix-ZeeflixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D33D5F8311A463FB156E8630 /* Pods-ZeeflixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeeflixTests.debug.xcconfig"; path = "Target Support Files/Pods-ZeeflixTests/Pods-ZeeflixTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043B56F681190F8EB9D20373 /* Pods_Zeeflix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40EFFEA854F3C9DD8DDD1655 /* Pods_ZeeflixTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5277207AA538E82B65F7187 /* Pods_Zeeflix_ZeeflixUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +156,8 @@
 				49B3D2AE270E3600007F0F95 /* ZeeflixTests */,
 				49B3D2B9270E3600007F0F95 /* ZeeflixUITests */,
 				49B3D296270E35F7007F0F95 /* Products */,
+				847681574BEE826C3A8DA59F /* Pods */,
+				FBEE5E71E4814088697AB09F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +174,10 @@
 		49B3D297270E35F7007F0F95 /* Zeeflix */ = {
 			isa = PBXGroup;
 			children = (
-				49B3D298270E35F7007F0F95 /* AppDelegate.swift */,
-				49B3D29A270E35F7007F0F95 /* SceneDelegate.swift */,
-				49B3D29C270E35F7007F0F95 /* ViewController.swift */,
-				49B3D29E270E35F7007F0F95 /* Main.storyboard */,
-				49B3D2A1270E3600007F0F95 /* Assets.xcassets */,
-				49B3D2A3270E3600007F0F95 /* LaunchScreen.storyboard */,
 				49B3D2A6270E3600007F0F95 /* Info.plist */,
+				49B3D3D8270EA7FB007F0F95 /* www */,
+				49B3D2CF270E424D007F0F95 /* Domain */,
+				49B3D2CB270E422C007F0F95 /* SupportiveFiles */,
 			);
 			path = Zeeflix;
 			sourceTree = "<group>";
@@ -128,6 +200,197 @@
 			path = ZeeflixUITests;
 			sourceTree = "<group>";
 		};
+		49B3D2CB270E422C007F0F95 /* SupportiveFiles */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D298270E35F7007F0F95 /* AppDelegate.swift */,
+				49B3D29A270E35F7007F0F95 /* SceneDelegate.swift */,
+				49B3D2A1270E3600007F0F95 /* Assets.xcassets */,
+				49B3D2A3270E3600007F0F95 /* LaunchScreen.storyboard */,
+			);
+			path = SupportiveFiles;
+			sourceTree = "<group>";
+		};
+		49B3D2CF270E424D007F0F95 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D2D8270E430F007F0F95 /* Service */,
+				49B3D2D7270E4301007F0F95 /* Common */,
+				49B3D2D6270E42BC007F0F95 /* Base */,
+				49B3D2D5270E42B1007F0F95 /* Model */,
+				49B3D2D4270E42A3007F0F95 /* Storyboard */,
+				49B3D2D3270E4296007F0F95 /* ViewController */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		49B3D2D3270E4296007F0F95 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D36C270E7A4E007F0F95 /* Dialogs */,
+				49B3D3B7270E9331007F0F95 /* MovieDetail */,
+				49B3D313270E4EE1007F0F95 /* Movie */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		49B3D2D4270E42A3007F0F95 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D29E270E35F7007F0F95 /* Main.storyboard */,
+				49B3D367270E795A007F0F95 /* Dialogs.storyboard */,
+				49B3D3AF270E91C1007F0F95 /* MovieDetail.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		49B3D2D5270E42B1007F0F95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D30B270E4AC2007F0F95 /* UpcomingMovieModel.swift */,
+				49B3D352270E7558007F0F95 /* PopularMovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49B3D2D6270E42BC007F0F95 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D2FE270E469F007F0F95 /* BaseResponse.swift */,
+				49B3D336270E5979007F0F95 /* BaseVM.swift */,
+				49B3D357270E7617007F0F95 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		49B3D2D7270E4301007F0F95 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D3E3270EA918007F0F95 /* Uitility */,
+				49B3D2F8270E4645007F0F95 /* Extension */,
+				49B3D2E2270E441A007F0F95 /* Constant */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		49B3D2D8270E430F007F0F95 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D2EE270E4568007F0F95 /* AlamofireService.swift */,
+				49B3D306270E4937007F0F95 /* APIError.swift */,
+				49B3D329270E56E5007F0F95 /* APIservice.swift */,
+				49B3D324270E563E007F0F95 /* UpcomingMovieDAO.swift */,
+				49B3D34D270E74D4007F0F95 /* PopularMovieDAO.swift */,
+				49B3D3F9270EAA04007F0F95 /* FavouriteDAO.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		49B3D2E2270E441A007F0F95 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D2E3270E4444007F0F95 /* ConstantUrl.swift */,
+				49B3D372270E7B29007F0F95 /* AppStoryboard.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		49B3D2F8270E4645007F0F95 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D33B270E635A007F0F95 /* UIimage.swift */,
+				49B3D377270E7BB7007F0F95 /* UIViewController.swift */,
+				49B3D388270E7D6D007F0F95 /* String.swift */,
+				49B3D38D270E7D8F007F0F95 /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		49B3D313270E4EE1007F0F95 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D314270E4EFF007F0F95 /* Controller */,
+				49B3D315270E4F08007F0F95 /* Cell */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		49B3D314270E4EFF007F0F95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D29C270E35F7007F0F95 /* ViewController.swift */,
+				49B3D331270E58E9007F0F95 /* UpcomingMovieVM.swift */,
+				49B3D3A2270E891D007F0F95 /* PopularMovieVM.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49B3D315270E4F08007F0F95 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D319270E5026007F0F95 /* MovieCell.swift */,
+				49B3D31F270E503E007F0F95 /* MovieCell.xib */,
+				49B3D395270E804B007F0F95 /* PopularMovieCell.swift */,
+				49B3D39D270E805F007F0F95 /* PopularMovieCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		49B3D36C270E7A4E007F0F95 /* Dialogs */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D36D270E7A60007F0F95 /* Dialogs.swift */,
+			);
+			path = Dialogs;
+			sourceTree = "<group>";
+		};
+		49B3D3B7270E9331007F0F95 /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D3B8270E935C007F0F95 /* MovieDetail.swift */,
+			);
+			path = MovieDetail;
+			sourceTree = "<group>";
+		};
+		49B3D3D8270EA7FB007F0F95 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D3D9270EA7FB007F0F95 /* FavouriteMovies.db */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		49B3D3E3270EA918007F0F95 /* Uitility */ = {
+			isa = PBXGroup;
+			children = (
+				49B3D3E4270EA92E007F0F95 /* DBUtility.swift */,
+			);
+			path = Uitility;
+			sourceTree = "<group>";
+		};
+		847681574BEE826C3A8DA59F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				603C9B12C7636E3C810E917C /* Pods-Zeeflix.debug.xcconfig */,
+				8E1B7E2EDC5B8F6ED2EC5ADE /* Pods-Zeeflix.release.xcconfig */,
+				CA9DA04455DA1FA59D080F90 /* Pods-Zeeflix-ZeeflixUITests.debug.xcconfig */,
+				BB9BC0D0DC49FC98E45BB1BC /* Pods-Zeeflix-ZeeflixUITests.release.xcconfig */,
+				D33D5F8311A463FB156E8630 /* Pods-ZeeflixTests.debug.xcconfig */,
+				66E5CFB09487FC7003326DD9 /* Pods-ZeeflixTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FBEE5E71E4814088697AB09F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CB938C21D5FB67ADC27C945 /* Pods_Zeeflix.framework */,
+				462F3BCDF4A2BB179647C783 /* Pods_Zeeflix_ZeeflixUITests.framework */,
+				621D144B1D1E80D126461A5D /* Pods_ZeeflixTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +398,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49B3D2BF270E3600007F0F95 /* Build configuration list for PBXNativeTarget "Zeeflix" */;
 			buildPhases = (
+				A59501E8491FE43F91A3D976 /* [CP] Check Pods Manifest.lock */,
 				49B3D291270E35F7007F0F95 /* Sources */,
 				49B3D292270E35F7007F0F95 /* Frameworks */,
 				49B3D293270E35F7007F0F95 /* Resources */,
+				FD00DE50A35610ABE064B56A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +417,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49B3D2C2270E3600007F0F95 /* Build configuration list for PBXNativeTarget "ZeeflixTests" */;
 			buildPhases = (
+				1107F7D278E237E86A28D62D /* [CP] Check Pods Manifest.lock */,
 				49B3D2A7270E3600007F0F95 /* Sources */,
 				49B3D2A8270E3600007F0F95 /* Frameworks */,
 				49B3D2A9270E3600007F0F95 /* Resources */,
@@ -170,9 +436,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49B3D2C5270E3600007F0F95 /* Build configuration list for PBXNativeTarget "ZeeflixUITests" */;
 			buildPhases = (
+				4A19B8ADE35E4951643F2451 /* [CP] Check Pods Manifest.lock */,
 				49B3D2B2270E3600007F0F95 /* Sources */,
 				49B3D2B3270E3600007F0F95 /* Frameworks */,
 				49B3D2B4270E3600007F0F95 /* Resources */,
+				D1A423933DDAEE44F2D930AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +501,11 @@
 			files = (
 				49B3D2A5270E3600007F0F95 /* LaunchScreen.storyboard in Resources */,
 				49B3D2A2270E3600007F0F95 /* Assets.xcassets in Resources */,
+				49B3D39E270E805F007F0F95 /* PopularMovieCell.xib in Resources */,
+				49B3D320270E503E007F0F95 /* MovieCell.xib in Resources */,
+				49B3D3B0270E91C1007F0F95 /* MovieDetail.storyboard in Resources */,
+				49B3D368270E795A007F0F95 /* Dialogs.storyboard in Resources */,
+				49B3D3DB270EA7FB007F0F95 /* FavouriteMovies.db in Resources */,
 				49B3D2A0270E35F7007F0F95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +526,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1107F7D278E237E86A28D62D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZeeflixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A19B8ADE35E4951643F2451 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zeeflix-ZeeflixUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A59501E8491FE43F91A3D976 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zeeflix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A423933DDAEE44F2D930AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeeflix-ZeeflixUITests/Pods-Zeeflix-ZeeflixUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeeflix-ZeeflixUITests/Pods-Zeeflix-ZeeflixUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zeeflix-ZeeflixUITests/Pods-Zeeflix-ZeeflixUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD00DE50A35610ABE064B56A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeeflix/Pods-Zeeflix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeeflix/Pods-Zeeflix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zeeflix/Pods-Zeeflix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49B3D291270E35F7007F0F95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B3D30C270E4AC2007F0F95 /* UpcomingMovieModel.swift in Sources */,
 				49B3D29D270E35F7007F0F95 /* ViewController.swift in Sources */,
+				49B3D396270E804B007F0F95 /* PopularMovieCell.swift in Sources */,
+				49B3D38E270E7D8F007F0F95 /* UIView.swift in Sources */,
+				49B3D32A270E56E5007F0F95 /* APIservice.swift in Sources */,
+				49B3D3A3270E891D007F0F95 /* PopularMovieVM.swift in Sources */,
+				49B3D2E4270E4444007F0F95 /* ConstantUrl.swift in Sources */,
 				49B3D299270E35F7007F0F95 /* AppDelegate.swift in Sources */,
+				49B3D34E270E74D4007F0F95 /* PopularMovieDAO.swift in Sources */,
+				49B3D353270E7558007F0F95 /* PopularMovieModel.swift in Sources */,
+				49B3D358270E7617007F0F95 /* BaseViewController.swift in Sources */,
+				49B3D2EF270E4568007F0F95 /* AlamofireService.swift in Sources */,
 				49B3D29B270E35F7007F0F95 /* SceneDelegate.swift in Sources */,
+				49B3D307270E4937007F0F95 /* APIError.swift in Sources */,
+				49B3D36E270E7A60007F0F95 /* Dialogs.swift in Sources */,
+				49B3D31A270E5026007F0F95 /* MovieCell.swift in Sources */,
+				49B3D325270E563E007F0F95 /* UpcomingMovieDAO.swift in Sources */,
+				49B3D3B9270E935C007F0F95 /* MovieDetail.swift in Sources */,
+				49B3D378270E7BB7007F0F95 /* UIViewController.swift in Sources */,
+				49B3D332270E58E9007F0F95 /* UpcomingMovieVM.swift in Sources */,
+				49B3D33C270E635A007F0F95 /* UIimage.swift in Sources */,
+				49B3D2FF270E469F007F0F95 /* BaseResponse.swift in Sources */,
+				49B3D3E5270EA92E007F0F95 /* DBUtility.swift in Sources */,
+				49B3D389270E7D6D007F0F95 /* String.swift in Sources */,
+				49B3D373270E7B29007F0F95 /* AppStoryboard.swift in Sources */,
+				49B3D337270E5979007F0F95 /* BaseVM.swift in Sources */,
+				49B3D3FA270EAA04007F0F95 /* FavouriteDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +833,7 @@
 		};
 		49B3D2C0270E3600007F0F95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603C9B12C7636E3C810E917C /* Pods-Zeeflix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +852,7 @@
 		};
 		49B3D2C1270E3600007F0F95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1B7E2EDC5B8F6ED2EC5ADE /* Pods-Zeeflix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +871,7 @@
 		};
 		49B3D2C3270E3600007F0F95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33D5F8311A463FB156E8630 /* Pods-ZeeflixTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +893,7 @@
 		};
 		49B3D2C4270E3600007F0F95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E5CFB09487FC7003326DD9 /* Pods-ZeeflixTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +915,7 @@
 		};
 		49B3D2C6270E3600007F0F95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9DA04455DA1FA59D080F90 /* Pods-Zeeflix-ZeeflixUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +935,7 @@
 		};
 		49B3D2C7270E3600007F0F95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9BC0D0DC49FC98E45BB1BC /* Pods-Zeeflix-ZeeflixUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
